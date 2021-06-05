@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ore888/public_html/download_exe
+    - /bin/cp -R download_exe $DEPLOYPATH
